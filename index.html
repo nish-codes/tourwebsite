@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <div class="headder">
+                <img class="logo" src="logo.svg" alt="logo">
+                <div class="middle">
+                    <a class="home" href="#">Home</a>
+                    <a href="./about.html">About us</a>
+                    <a href="#">Tour Packages</a>
+                    <a href="#">Contact us</a>
+                </div>
+                <div class="end">
+                    <a href="#">Eng</a>
+                    <button>Login</button>
+                    <button id="signup">Sign up</button>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    &#9776;
+                </div>
+                
+                
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu">
+                <button class="close-btn" id="close-btn">X</button>
+                <a class="home" href="#">Home</a>
+                <a href="./about.html">About us</a>
+                <a href="#">Tour Packages</a>
+                <a href="#">Contact us</a>
+                <a href="#">Eng</a>
+                <button>Login</button>
+                <button id="signup">Sign up</button>
+            </div>
+        
+        </nav>
+        <div class="text-field">
+            <h1>Enjoy in the best way!</h1>
+            <h2>Enjoy our services for your trip anytime</h2>
+            <div class="tour">
+                <div class="tour-section">
+                    <div class="tour-header">
+                        <p class="public"><i class="fas fa-globe-americas"></i>Public Tours</p>
+                        <p class="private"><i class="fas fa-users"></i>Private Tours</p>
+                    </div>
+                    <div class="tour-body">
+                        <div class="tour-select">
+                            <p><i class="fas fa-users"></i>Number of people</p>
+                            <select name="select" id="people">
+                                <option value="select">Choose Number</option>
+                            </select>
+                            
+                        </div>
+                        <div class="tour-select">
+                            <p><i class="fas fa-calendar-alt"></i>Date</p>
+                            <select name="select" id="date">
+                                <option value="select">Choose Date</option>
+                            </select>
+                        </div>
+                        <div class="tour-select">
+                            <p><i class="fas fa-clock"></i>Time</p>
+                            <select name="select" id="time">
+                                <option value="select">Choose Time</option>
+                            </select>
+                        </div>
+                        <div class="tour-select">
+                            <p><i class="far fa-flag"></i> Tour</p>
+                            <select name="select" id="tour">
+                                <option value="select">Select Tour</option>
+                            </select>
+                        </div>
+                        <div class="tour-select">
+                            <p><i class="fas fa-car"></i> Transportation</p>
+                            <select name="select" id="transportation">
+                                <option value="select">Select Transportation</option>
+                            </select>
+                        </div>
+                        <button class=" search"><i class="fas fa-search"></i></button>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="image-section">
+        <div class="top-section">
+            <h1>Explore Our Popular Destinations</h1>
+            <div class="nav-btn">
+                <button>&lt</button>
+                <button>&gt</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-card">
+                <!-- <img src="./Hero Page/popular_dest/popular_dest_1.svg" alt="a old man with bike "> -->
+                <div class="content">
+                    <h3>Lucca Bike Tour</h3>
+                    <p>from <span class="price">34 €</span></p>
+                    <div class="icon">
+                        <p><i class="fas fa-calendar-alt"></i> EVERY DAY</p>
+                        <p><i class="fas fa-users"></i> 3-10 PP</p>
+                    </div>
+
+                    <p>A tour of the city and its surroundings led by a professional guide...</p>
+                </div>
+
+            </div>
+            <div class="image-card">
+                <img src="./Hero Page/popular_dest/popular_dest_2.svg" alt="wine">
+                <div class="content">
+                    <h3>Wine tasting In Tuscany</h3>
+                    <p>from <span class="price">34 €</span></p>
+                    <div class="icon">
+                        <p><i class="fas fa-calendar-alt"></i> MONDAY</p>
+                        <p><i class="fas fa-users"></i> 3-10 PP</p>
+                    </div>
+
+                    <p>The real magic is here where you can enjoy the best Tuscan wine and eat.....</p>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="./Hero Page/popular_dest/popular_dest_3.svg" alt="view of city">
+                <div class="content">
+                    <h3>Cinque Terre Tour</h3>
+                    <p>from <span class="price">34 €</span></p>
+                    <div class="icon">
+                        <p><i class="fas fa-calendar-alt"></i> TO BE DECIDED</p>
+                        <p><i class="fas fa-users"></i> 3-10 PP</p>
+                    </div>
+
+                    <p>Visiting the 5 Terre is a must, and you can never go there enough....</p>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="./Hero Page/popular_dest/popular_dest_4.svg" alt="grassland">
+                <div class="content">
+                    <h3>Siena and Surroundings</h3>
+                    <p>from <span class="price">34 €</span></p>
+                    <div class="icon">
+                        <p><i class="fas fa-calendar-alt"></i>TO BE DECIDED</p>
+                        <p><i class="fas fa-users"></i> 3-10 PP</p>
+                    </div>
+
+                    <p>Visit the beautiful Siena and the cities that surround it to experience</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="image-field">
+        <img src="./Hero Page/best_company/best_company01.svg" alt="group of building" class="girl">
+        <div class="text-section">
+            <p>WELCOME TO OUR SITE</p>
+            <h2>We Are The Center Of Lucca To Offer You The Best</h2>
+            <p class="description">We are right in the center of Lucca to offer you the real city life! With years of
+                experience in practically every tourism sector, with us you can find complete packages at the lowest
+                price, to travel and learn and have fun all without worries and without stress. What are you waiting
+                for, book a bright evening, a trip to beautiful Tuscany or a personal tour for you!</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>20+</h3>
+                    <p>Years<br>
+                        Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Happy<br>Customer</p>
+                </div>
+                <div class="stat">
+                    <h3>15+</h3>
+                    <p>Choice<br>of Services</p>
+                </div>
+                <div class="stat">
+                    <h3>10+</h3>
+                    <p>Professional<br>Guides</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="special-offers">
+        <div class="section-wrapper">
+            <div class="offer-info">
+                <h2>Get Special Offer for <br>Organization</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                     the industry's standard dummy text ever since the 1500%</p>
+                <button>Contact Us</button>
+            </div>
+            <img src="./Hero Page/special_offers/special_offers01.svg" alt="women">
+        </div>
+    </div>
+    <div class="services">
+        <div class="image-container">
+            <div class="service-card">
+                <img src="./Hero Page/services/services01.svg" alt="a few bikes ">
+                <div class="content">
+                    <h3>Bike and rickshaw rental</h3>
+
+
+                    <p>Book your quality vehicle quickly for an hour or all day!</p>
+                </div>
+
+            </div>
+            <div class="service-card">
+                <img src="./Hero Page/services/services02.svg" alt="people in garden">
+                <div class="content">
+                    <h3>Guided tour of the countryside</h3>
+                    <p>Live the real Lucchese experience by visiting the suburbs by bike</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="./Hero Page/services/services03.svg" alt="cab with driver">
+                <div class="content">
+                    <h3>Taxi and NCC service</h3>
+
+
+                    <p>Do you need not only a bike but also a driver? Then you have found the right place!</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="./Hero Page/services/services04.svg" alt="bus">
+                <div class="content">
+                    <h3>Bus Package</h3>
+
+                    <p>Do you need not only a bike but also a driver? Then you have found the right place</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bike-section">
+        <div class="bike-wrapper">
+            <div class="booking-info">
+                <h2>Book Now Bike</h2>
+              <div class="user-info">
+               <div class="info">
+                <label for="name">Name and surname</label>
+                <input type="text" id="name" placeholder="Enter your name and surname">
+               </div>
+               <div class="info">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" placeholder="Enter your email address">
+               </div>
+               <div class="info">
+                <label for="telephone">Telephone Number</label>
+                <input type="text" id="telephone" placeholder="Enter your telephone number">
+               </div>
+               <div class="info">
+                <label for="service">Service Type</label>
+                <select name="Select" id="service">
+                    <option value="Select">
+                        Select the service type
+                    </option>
+                    
+                </select>
+                
+               </div>
+               <div class="info">
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Select the date">
+               </div>
+               <div class="info">
+                <label for="time">Time</label>
+                <input type="text" id="time" placeholder="Select the time">
+               </div>
+               <button class ="book-now">Book Now</button>
+              </div>
+              
+            </div>
+            <img src="./Hero Page/book_a_bike/bike picture.png" alt="">
+        </div>
+    </div>
+    <div class="packages">
+        <h2>The Most Popular Packages</h2>
+        <div class="package-wrapper">
+            <div class="package-card">
+                <img src="./Hero Page/popular_package/pop_package01.svg" alt="auto">
+                <div class="package-content">
+                    <h3>Bike / Rickshaw</h3>
+                    <p><span class="currency">10</span>/day</p>
+
+                    <p><i class="fas fa-calendar-day"></i> Your bike for a day</p>
+                    <p><i class="fas fa-map"></i> City App</p>
+                    <p><i class="fas fa-ticket-alt"></i> Discount on Rickshaw</p>
+                    <p><i class="fas fa-headset"></i> Guaranteed Support</p>
+                    <button>Book Now</button>
+
+                </div>
+
+            </div>
+            <div class="package-card">
+                <img src="./Hero Page/popular_package/pop_package02.svg" alt="auto">
+                <div class="package-content">
+                    <h3>BIKE TOURS</h3>
+                    <p><span class="currency">30</span>/day</p>
+
+                    <p><i class="fas fa-bicycle"></i> A Mountain Bike Includedy</p>
+                    <p><i class="fas fa-user-friends"></i> A Guide For You</p>
+                    <p><i class="fas fa-tint"></i> Bottle of water</p>
+                    <p><i class="fas fa-headset"></i> Guaranteed Support</p>
+                    <button>Book Now</button>
+                </div>
+
+            </div>
+            <div class="package-card">
+                <img src="./Hero Page/popular_package/pop_package03.svg" alt="auto">
+                <div class="package-content">
+                    <h3>BUS TRIPS</h3>
+                    <p><span class="currency">45</span>/day</p>
+
+                    <p><i class="fas fa-ticket-alt"></i> Park ticket</p>
+                    <p><i class="fas fa-bus"></i> Return bus</p>
+                    <p><i class="fas fa-users"></i> Companion</p>
+                    <p><i class="fas fa-headset"></i> Guaranteed Support</p>
+                    <button>Book Now</button>
+
+
+                </div>
+
+            </div>
+            <div class="package-card">
+                <img src="./Hero Page/popular_package/pop_package04.svg" alt="auto">
+                <div class="package-content">
+                    <h3>TRANSFER</h3>
+                    <p><span class="currency">10</span>/day</p>
+
+                    <p><i class="fas fa-car"></i> Personal Driver</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Wherever You Want</p>
+                    <p><i class="fas fa-ticket-alt"></i>At the best price</p>
+                    <p><i class="fas fa-headset"></i> Guaranteed Support</p>
+                    <button>Book Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="topt">
+            <h2>Happy Customers Says</h2>
+            <div class="nav-btn">
+                <button>&lt</button>
+                <button>&gt</button>
+            </div>
+        </div>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-card">
+                <img src="./About/kendrick.jpg" alt="Customer">
+                <h3>Kendrick</h3>
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete. account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
+             </div>
+             <div class="testimonial-card">
+                <img src="./About/kendrick.jpg" alt="Customer">
+                <h3>Kendrick</h3>
+    
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete. account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
+             </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="footer-heading">
+            <img class="footer-logo"src="logo.svg" alt="logo">
+            <hr>
+        </div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Bike and Rickshaw rental</a></li>
+                    <li><a href="#">Guided Tours of Lucca</a></li>
+                    <li><a href="#">Guided Bike Tour of Lucca</a></li>
+                    <li><a href="#">Trip In The Tuscan Hills</a></li>
+                    <li><a href="#">Transportation With Luxury Cars</a></li>
+                    <li><a href="#">Wine Tours By Bus With Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tour Packages</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contacts</h3>
+                <p><img src="./About/icons8-location-50.png" alt="location logo">Piazza Napoleone, Lucca, Tuscany</p>
+                <p><img src="./About/icons8-phone-50.png" alt="phone">+39 346 368 5708</p>
+                <p><img src=".//About/icons8-mail-50.png" alt="mail">italianlimo@gmail.com</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Social Media</h3>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div>
+                
+                
+            </div>
+        </div>
+        <hr class="bottom-line">
+         <div class="footer-bottom">
+                <p>Copyright &#169 2022 All rights reserved</p>
+         </div>
+        
+    </div>
+   <script>
+    const hamburger = document.getElementById("hamburger");
+    const dropdown = document.getElementById("dropdown-menu");
+    const closebtn = document.getElementById("close-btn");
+    hamburger.addEventListener('click',()=>{
+        dropdown.classList.toggle('active')
+        hamburger.style.display='none'
+    })
+    closebtn.addEventListener('click',()=>{
+        dropdown.classList.remove('active')
+        hamburger.style.display="block"
+        
+    })
+  
+
+   </script>
+
+</body>
+
+</html>
